@@ -8,7 +8,8 @@ data:
     <configuration>
     <property><name>dfs.namenode.rpc-address</name><value>namenode-0.namenode:9000</value></property>
     <property><name>dfs.replication</name><value>3</value></property>
-    <property><name>dfs.permissions.superusergroup</name><value>admin</value></property>
+    <property><name>dfs.permissions.enabled</name><value>false</value></property>
+    <property><name>dfs.support.append</name><value>true</value></property>
     <property><name>dfs.datanode.data.dir</name><value>/data/datanode</value></property>
     <property><name>dfs.namenode.name.dir</name><value>/data/namenode</value></property>
     <property><name>dfs.namenode.http-bind-host</name><value>0.0.0.0</value></property>
